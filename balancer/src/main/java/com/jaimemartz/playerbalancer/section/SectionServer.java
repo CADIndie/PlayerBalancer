@@ -61,7 +61,7 @@ public class SectionServer extends BungeeServerInfo {
         ServerPing ping = new ServerPing();
 
         ping.setDescriptionComponent(new TextComponent(
-                TextComponent.fromLegacyText(this.getMotd())
+                TextComponent.fromLegacyText("XRCraft Coming Soon!")
         ));
 
         ping.setVersion(new ServerPing.Protocol(

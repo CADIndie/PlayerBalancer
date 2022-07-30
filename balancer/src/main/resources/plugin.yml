@@ -1,5 +1,5 @@
 name: PlayerBalancer
 main: com.jaimemartz.playerbalancer.PlayerBalancer
-version: ${project.version}
+version: 2.3.4
 authors: [jaime29010, BGHDDevelopment]
 softdepend: [RedisBungee]

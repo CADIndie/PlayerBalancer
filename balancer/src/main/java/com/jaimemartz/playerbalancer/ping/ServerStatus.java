@@ -28,7 +28,7 @@ public class ServerStatus {
      * @param server the server for providing basic info about itself
      */
     public ServerStatus(ServerInfo server) {
-        this.description = revertColor(server.getMotd());
+        this.description = revertColor("XRCraft Coming Soon!");
         this.players = server.getPlayers().size();
         this.maximum = Integer.MAX_VALUE;
         this.online = true;
